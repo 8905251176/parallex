@@ -13,7 +13,7 @@
     padding:0px;
 }
 .parallex{
-    background-image:url("/foody/nature.jpg");
+    background-image:url("/parallex/nature.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +32,7 @@
 
 }
 .bg-2{
-    background-image:url("/foody/background6.jpg");
+    background-image:url("/parallex/background6.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,7 +40,7 @@
     min-height:746px;
 }
 .bg-3{
-    background-image:url("/foody/flowers.jpg");
+    background-image:url("/parallex/flowers.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,7 @@
     min-height:746px;
 }
 .bg-4{
-    background-image:url("/foody/desert.jpg");
+    background-image:url("/parallex/desert.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -56,14 +56,14 @@
     min-height:746px;
 }
 .bg-5{
-    background-image:url("/foody/valley.jpg");
+    background-image:url("/parallex/valley.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height:746px;
 }.bg-6{
-    background-image:url("/foody/lake.jpg");
+    background-image:url("/parallex/lake.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
