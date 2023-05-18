@@ -1,0 +1,142 @@
+@keyframes changecolor
+{
+    0% {color:black; text-shadow: 5px 5px 2px grey;}
+    25% {color:rgb(48, 253, 72); text-shadow: 5px 5px 2px rgb(3, 147, 61);}
+    50% {color:rgb(215, 250, 59); text-shadow: 5px 5px 2px rgb(139, 157, 6);}
+    75% {color:rgb(251, 164, 120); text-shadow: 5px 5px 2px rgb(96, 2, 2);}
+   100% {color:rgb(229, 103, 238); text-shadow: 5px 5px 2px rgb(80, 3, 105);}
+    
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+.parallex{
+    background-image:url("/foody/nature.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 746px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nature{
+    box-shadow: 5px 5px 8px grey;
+    border-radius: 150px;
+    height: 100px;
+    width:200px;
+
+}
+.bg-2{
+    background-image:url("/foody/background6.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:746px;
+}
+.bg-3{
+    background-image:url("/foody/flowers.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:746px;
+}
+.bg-4{
+    background-image:url("/foody/desert.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:746px;
+}
+.bg-5{
+    background-image:url("/foody/valley.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:746px;
+}.bg-6{
+    background-image:url("/foody/lake.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:746px;
+}
+
+/* 
+.nature{
+    min-height: 200px;
+    /* border:2px solid red; */
+    /* position:relative;
+    top: 228px;
+    width: 50%;
+    left: 375px;
+    width:50%;
+    text-align: center;
+    font-size: 113px;
+    font-family:'Lobster', cursive;
+/* } */ 
+.child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2{
+    background-image: linear-gradient(white,rgb(159 8 208));
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+h1{
+    text-shadow: 5px 5px 2px grey;
+    animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.footer{
+    background-color: aqua;
+    min-height:200px;
+
+}
+.child3{
+    background-image: linear-gradient(-4deg, green, transparent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child4
+{
+    background-image: linear-gradient(white,rgb(224 121 69));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child5{
+    background-image: linear-gradient(white,#c5eb50);
+    box-shadow: 6px 6px 8px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.child6{
+    background-image: linear-gradient(white,rgb(182 208 235));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
